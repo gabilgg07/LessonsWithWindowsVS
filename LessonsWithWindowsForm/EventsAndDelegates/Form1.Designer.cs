@@ -36,6 +36,7 @@ namespace EventsAndDelegates
             this.txtFullname = new System.Windows.Forms.TextBox();
             this.btnAddFullname = new System.Windows.Forms.Button();
             this.listFullname = new System.Windows.Forms.ListBox();
+            this.btn2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblFullname
@@ -62,8 +63,6 @@ namespace EventsAndDelegates
             this.txtFullname.Name = "txtFullname";
             this.txtFullname.Size = new System.Drawing.Size(220, 30);
             this.txtFullname.TabIndex = 1;
-            // DotNet-in ozunun yaratdigi delegateler: EventHandler, KeyPressEventHandler ve s.
-            // .TextChanged, .KeyPress -> bunlar ise Eventlerdir.
             this.txtFullname.TextChanged += new System.EventHandler(this.txtFullname_TextChanged);
             this.txtFullname.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtFullname_KeyPressEnter);
             // 
@@ -77,7 +76,13 @@ namespace EventsAndDelegates
             this.btnAddFullname.TabIndex = 2;
             this.btnAddFullname.Text = "Add";
             this.btnAddFullname.UseVisualStyleBackColor = false;
-            this.btnAddFullname.Click += new System.EventHandler(this.btnAddFullname_Click);
+
+            // DotNet 2 parametrli method qebul eden EventHandler adli delegate hazirlayib:
+            // object(ve ya her hansi bir konkret tip) sender, EventArg e.
+
+            // delegte - ler de referance type-dir.
+
+            //this.btnAddFullname.Click += new System.EventHandler(this.btnAddFullname_Click);
             // 
             // listFullname
             // 
@@ -92,11 +97,25 @@ namespace EventsAndDelegates
             this.listFullname.TabIndex = 3;
             this.listFullname.SelectedIndexChanged += new System.EventHandler(this.listFullname_SelectedIndexChanged);
             // 
+            // btn2
+            // 
+            this.btn2.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.btn2.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btn2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn2.ForeColor = System.Drawing.Color.White;
+            this.btn2.Location = new System.Drawing.Point(68, 192);
+            this.btn2.Name = "btn2";
+            this.btn2.Size = new System.Drawing.Size(217, 45);
+            this.btn2.TabIndex = 4;
+            this.btn2.Text = "button2";
+            this.btn2.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn2);
             this.Controls.Add(this.listFullname);
             this.Controls.Add(this.btnAddFullname);
             this.Controls.Add(this.txtFullname);
@@ -116,6 +135,7 @@ namespace EventsAndDelegates
         private System.Windows.Forms.TextBox txtFullname;
         private System.Windows.Forms.Button btnAddFullname;
         private System.Windows.Forms.ListBox listFullname;
+        private Button btn2;
     }
 }
 

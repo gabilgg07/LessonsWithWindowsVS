@@ -20,6 +20,10 @@ namespace EventsAndDelegates
             // btnAddFullname button-umuzda .MouseDown event-i bas verdikde
             // btnAddFullname_MouseRightClick methodunu icra et.
             btnAddFullname.MouseDown += btnAddFullname_MouseRightClick;
+
+            // 2 event 1 methodu cagirir:
+            btnAddFullname.Click += btnAddFullname_Click;
+            btn2.Click += btnAddFullname_Click;
         }
 
         private void btnAddFullname_MouseRightClick(object sender, System.Windows.Forms.MouseEventArgs e)
@@ -58,7 +62,22 @@ namespace EventsAndDelegates
 
         private void btnAddFullname_Click(object sender, EventArgs e)
         {
-            AddFullname();
+            // sender tezyiq olunani (burada click olunan buttonu) qaytarir.
+
+            // as safe casting
+            Button b = sender as Button;
+
+            if (b != null)
+            {
+                // hansi button basilarsa onun adini qaytarir. ona gore is gorulur:
+                string strText = b.Text;
+                if (strText == "Add")
+                {
+                    AddFullname();
+                }
+                MessageBox.Show(strText);
+            }
+            
         }
 
         private void listFullname_SelectedIndexChanged(object sender, EventArgs e)
@@ -88,5 +107,6 @@ namespace EventsAndDelegates
 
             txtFullname.Text = "";
         }
+
     }
 }
