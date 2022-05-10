@@ -1,0 +1,10 @@
+D:\code\Lessons\LessonsWithWindowsVS\LessonsWithWindowsForm\GetDirectoriesFromDisks\bin\Debug\GetDirectoriesFromDisks.exe.config
+D:\code\Lessons\LessonsWithWindowsVS\LessonsWithWindowsForm\GetDirectoriesFromDisks\bin\Debug\GetDirectoriesFromDisks.exe
+D:\code\Lessons\LessonsWithWindowsVS\LessonsWithWindowsForm\GetDirectoriesFromDisks\bin\Debug\GetDirectoriesFromDisks.pdb
+D:\code\Lessons\LessonsWithWindowsVS\LessonsWithWindowsForm\GetDirectoriesFromDisks\obj\Debug\GetDirectoriesFromDisks.csproj.AssemblyReference.cache
+D:\code\Lessons\LessonsWithWindowsVS\LessonsWithWindowsForm\GetDirectoriesFromDisks\obj\Debug\GetDirectoriesFromDisks.Form1.resources
+D:\code\Lessons\LessonsWithWindowsVS\LessonsWithWindowsForm\GetDirectoriesFromDisks\obj\Debug\GetDirectoriesFromDisks.Properties.Resources.resources
+D:\code\Lessons\LessonsWithWindowsVS\LessonsWithWindowsForm\GetDirectoriesFromDisks\obj\Debug\GetDirectoriesFromDisks.csproj.GenerateResource.cache
+D:\code\Lessons\LessonsWithWindowsVS\LessonsWithWindowsForm\GetDirectoriesFromDisks\obj\Debug\GetDirectoriesFromDisks.csproj.CoreCompileInputs.cache
+D:\code\Lessons\LessonsWithWindowsVS\LessonsWithWindowsForm\GetDirectoriesFromDisks\obj\Debug\GetDirectoriesFromDisks.exe
+D:\code\Lessons\LessonsWithWindowsVS\LessonsWithWindowsForm\GetDirectoriesFromDisks\obj\Debug\GetDirectoriesFromDisks.pdb

@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsAndDelegates", "EventsAndDelegates\EventsAndDelegates.csproj", "{2E056E00-446A-4678-A9D3-C5D795CF388A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetDirectoriesFromDisks", "GetDirectoriesFromDisks\GetDirectoriesFromDisks.csproj", "{A54F94E1-20BE-4F23-AF75-D146B444A78F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2E056E00-446A-4678-A9D3-C5D795CF388A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E056E00-446A-4678-A9D3-C5D795CF388A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E056E00-446A-4678-A9D3-C5D795CF388A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A54F94E1-20BE-4F23-AF75-D146B444A78F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A54F94E1-20BE-4F23-AF75-D146B444A78F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A54F94E1-20BE-4F23-AF75-D146B444A78F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A54F94E1-20BE-4F23-AF75-D146B444A78F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
